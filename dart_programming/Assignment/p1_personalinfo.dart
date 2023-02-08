@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
   String name = "Mihir B Chauhan";
   String dob = "14 Apr 2000";
