@@ -1,0 +1,156 @@
+AOT - it converts the dart code in the optimized javascript code with the help of the dart2js compiler and runs on all the modern web browser it compiles the code at build time
+
+
+JOT (jUST IN TIME )  it converts the byte code in the machine code(native code) nut only code that is necessary.
+
+void main ()
+{
+// block of code
+}
+
+print() : it shows the output on console screen
+
+
+variable: it is a container to store values
+
+
+
+syntax;
+
+var <varname>;
+
+void  main()
+{
+	var name = "flutter";
+	print(name);
+	print("My tech is $name");   or  print("my tech is flutter",name);
+}
+
+variables rules :  keywords in dart are case sensitive***
+
+1. we cannot use keyword as a variable == there are 61 keywords in dart
+ 	var var X
+2. in var name we can use characters (A-Z a-z) digits (0-9) and_
+	var _age
+var Age
+var n1;
+3. we cant start var name with digits
+var 1n; X
+var n1;
+4. does not contain white space
+
+data types
+all data types in dart are objects
+
+1, number- int ,double
+2. string
+3, boolean
+4. list
+5. maps
+6. runes
+7.Symbols
+
+control statements inn dart
+
+3 types:-
+1. conditional
+2.looping
+3.jumping
+
+-- conditional
+1. if statement
+2.if..else 
+3.else..if
+4.nested if 
+5.switch
+
+
+
+
+else if syntax
+
+if( )
+{
+}
+
+elseif(cond)
+{
+}
+
+elseif()
+{
+}
+else
+{
+
+}
+
+nested if statemrnt
+
+if()
+{
+	statement
+		if ()
+		{
+			statement	
+		}
+		
+		else
+		{
+			statement
+		}
+
+}
+
+switch(condition)
+{
+	case 1 : statement;
+		break;
+	case 2 : statement;
+		break;
+	default:
+		statement;
+}
+
+looping statement1`
+
+1. for loop
+2. while loop
+
+------
+1. for loop
+is a seq controller loop
+ syntax:()
+
+for(initialization;condition;updation)
+{
+	statement
+}
+
+OOP CONCEPT
+
+1. Class is a user defined data types which contains data member and member function 
+
+syntax: 
+class     <classname>
+{
+	//data member
+	// member function
+}
+
+
+****constructer
+
+constructor os a special member function --- which is invoke automatically when we create an object of class.
+constructer and class name both are same
+
+syntax :
+
+	class <classname>
+{
+	constructorname
+	{
+	
+	}
+}
+
