@@ -1,0 +1,18 @@
+This program cannot be executed as this will show error
+because method overloading is not supported in dart.**
+
+class Printnumber{
+  void printn(int num)
+  {
+    print("Integer:$num");
+  }
+  void printn(double num)
+  {
+    print("Double:$num");
+  }
+
+  //void printn(String str)
+  {
+   // print("String: $str");
+  }
+}
