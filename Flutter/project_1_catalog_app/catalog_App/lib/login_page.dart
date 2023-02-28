@@ -129,13 +129,13 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ),
 
-                    /*ElevatedButton(
+                    ElevatedButton(
                       child: Text("Login"),
                       style: TextButton.styleFrom(minimumSize: Size(150, 40)),
                       onPressed: () {
                         Navigator.pushNamed(context, MyRoutes.homeRoute);
                       },
-                    ),*/
+                    ),
 
 
                   ],
